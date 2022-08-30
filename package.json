@@ -1,0 +1,22 @@
+{
+  "name": "upgrad_batch2_ideaservice",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Vishwa07dev/upgrad_batch2_ideaService.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Vishwa07dev/upgrad_batch2_ideaService/issues"
+  },
+  "homepage": "https://github.com/Vishwa07dev/upgrad_batch2_ideaService#readme",
+  "dependencies": {
+    "express": "^4.18.1"
+  }
+}
