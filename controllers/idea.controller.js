@@ -8,6 +8,8 @@
 
 const ideas =  require("../models/idea.model");
 
+let id = 3 ;
+
 /**
  * Add the logic to fetch all ideas
  * 
@@ -18,3 +20,16 @@ exports.getAllIdeas = (req, res) => {
     
     res.status(200).send(ideas);
 }
+
+/**
+ * Add the controller to add a new idea
+ */
+exports.createIdea = (req, res) => {
+   
+    req.body.id = id ;
+    ideas[id] = req.body ;
+    id++ ; //increment the id
+
+    res.status(201).send(ideas);
+
+} 

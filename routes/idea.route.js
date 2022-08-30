@@ -2,6 +2,7 @@
  * This file has all the routing logic for idea resource
  */
 const ideaController = require("../controllers/idea.controller");
+const ideaModel = require("../models/idea.model");
 
 module.exports = (app) => {
 
@@ -13,4 +14,8 @@ module.exports = (app) => {
      */
 
     app.get("/idea_service/api/v1/ideas", ideaController.getAllIdeas);
+
+    app.post("/idea_service/api/v1/ideas" , ideaController.createIdea);
+
+    
 }
